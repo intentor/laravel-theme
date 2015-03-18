@@ -1,4 +1,4 @@
-<?php namespace Intentor\LaravelForm;
+<?php namespace Intentor\LaravelTheme;
 
 /**
  * Theme facade.
