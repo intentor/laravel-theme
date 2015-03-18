@@ -1,6 +1,6 @@
 # Laravel Theme
 
-**Simple theme manager for Laravel 5. **
+**Simple theme manager for Laravel 5**
 
 ## Changelog
 
