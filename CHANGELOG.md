@@ -4,6 +4,10 @@
 
 ## Changelog
 
+### 1.1 (2015-03-18)
+
+- Added FileViewFinder to allow theme view files to override shared views.
+
 ### 1.0 (2015-03-18)
 
 - Initial version.

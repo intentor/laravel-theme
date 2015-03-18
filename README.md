@@ -105,10 +105,11 @@ resources
 
 3\. Create shared views at the `resources/views` folder.
 
+4\. Views in themes always override shared views.
+
 ## <a id="limitations"></a>Limitations
 
-1. Currently it's not possible to have views inside the theme with the same name of shared views.
-2. Asset management can be rather awkward, given the views for the theme are outside the `public` folder.
+1. Asset management can be rather awkward, given the views for the theme are outside the `public` folder.
 
 ## <a id="changelog"></a>Changelog
 

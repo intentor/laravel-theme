@@ -8,6 +8,8 @@ use View;
  * This service adds a new views' location, so the views for the theme can be loaded.
  */
 class Service {
+	/** File finder. */
+	protected $finder;
 	/** Current theme name. */
 	protected $currentTheme;
 	/** Theme options. */
@@ -15,6 +17,14 @@ class Service {
 		'theme_path' => 'resources/themes',
 		'views_path' => 'views'
 	];
+	
+	/**
+	 * Constructs this instance.
+	 */
+	public function __construct() {
+		$this->finder = app('view.finder');
+		View::setFinder($this->finder);
+	}
 	
 	/**
 	 * Gets the current theme name. 
@@ -54,6 +64,6 @@ class Service {
 		$this->currentTheme = $name;
 		$this->options = array_merge($this->options, $options);
 		
-		View::addLocation(base_path($this->viewPath()));
+		$this->finder->addLocation(base_path($this->viewPath()));
 	}
 }
