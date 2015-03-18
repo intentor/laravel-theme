@@ -1,7 +1,7 @@
 <?php namespace Intentor\LaravelTheme;
 
 /**
- * Form service provider.
+ * Theme service provider.
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 	/**
@@ -16,7 +16,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 	public function register() {
 		$this->app->bind(
 			'intentor.laravel-theme',
-			'Intentor\LaravelTheme\Theme'
+			'Intentor\LaravelTheme\Service'
 		);
 	}
 }

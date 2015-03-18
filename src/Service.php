@@ -1,7 +1,5 @@
 <?php namespace Intentor\LaravelTheme;
 
-use Input;
-
 /**
  * Manages app themes.
  * 
