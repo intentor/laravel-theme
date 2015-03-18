@@ -1,7 +1,5 @@
 <?php namespace Intentor\LaravelTheme;
 
-use View;
-
 /**
  * Form service provider.
  */
