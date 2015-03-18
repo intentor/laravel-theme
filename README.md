@@ -1,5 +1,4 @@
-# ![Laravel Theme](https://cloud.githubusercontent.com/assets/5340818/6645463/9c9d47f6-c99b-11e4-98ef-1cc82c7364d0.png)
-
+# ![Laravel Theme](https://cloud.githubusercontent.com/assets/5340818/6719072/0df533b0-cd97-11e4-9951-59796621efae.png)
 
 **Simple theme manager for Laravel 5**
 
@@ -17,8 +16,6 @@
 ## <a id="introduction"></a>Introduction
 
 *Laravel Theme* provides a simple way to manage themes on a Laravel app.
-
-The component 
 
 Compatible with Laravel 5.
 
