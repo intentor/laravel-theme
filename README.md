@@ -73,6 +73,14 @@ To set a theme, call `Theme::set('theme_name')` anywhere you want to change your
 
 **Remember**: the name of theme is the name of the folder that represents the theme at the `resources/themes` folder.
 
+### Displaying views
+
+To display a view, just call `view('view_name')` without indicating any reference to the theme.
+
+### Adding assets
+
+To add assets to pages, just include them pointing to their location at the `public` folder.
+
 ## <a id="best-practices"></a>Best practices
 
 1\. Add any assets (images, CSS, JS, etc.) for the theme in a specific folder inside the `public` folder.
