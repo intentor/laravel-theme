@@ -57,10 +57,15 @@ Inside the `themes` folder, any folder you create will represent a theme. For ea
 
 So, the folder structure will look like this:
 
-* resources
-    * themes
-        * [theme folder]
-            * views
+```
+resources
+└── themes
+    ├── [theme folder]
+    |   └── views
+    |
+    └── [another theme folder]
+        └── views
+```
 
 ### Setting a theme
 
@@ -74,30 +79,23 @@ To set a theme, call `Theme::set('theme_name')` anywhere you want to change your
 
 2\. If you're using a task manager (like [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/)) it's recommended to add assets at an `assets` folder inside the theme and then move the files to the public location. 
 
-* resources
-    * themes
-        * [theme folder]
-            * assets
-                * css/sass/less
-                * img
-                * js
-            * views
+```
+resources
+└── themes
+    ├── [theme folder]
+    |   ├── css/sass/less
+    |   ├── img
+    |   ├── js
+    |   └── views
+    |
+    └── [another theme folder]
+        ├── css/sass/less
+        ├── img
+        ├── js
+        └── views
+```
 
-
-3\. Or, when on Unix systems, create a symbolic link at the `public` folder to the `assets` folder of the theme.
-
-* resources
-    * themes
-        * [theme folder]
-            * assets
-                * css/sass/less
-                * img
-                * js
-            * views
-* public
-    * [theme folder] -> points to resouces/themes/[theme folder]
-
-4\. Create shared views at the `resources/views` folder.
+3\. Create shared views at the `resources/views` folder.
 
 ## <a id="limitations"></a>Limitations
 
