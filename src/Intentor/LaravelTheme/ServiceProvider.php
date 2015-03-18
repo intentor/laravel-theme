@@ -14,6 +14,13 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 	 * @return void
 	 */
 	public function register() {
+		//Overrides the default view finder.
+		$this->app['view.finder'] = $this->app->share(function($app) {
+			$paths = config('view.paths');
+			return new FileViewFinder($app['files'], $paths);
+		});
+
+		//Binds the service.
 		$this->app->bind(
 			'intentor.laravel-theme',
 			'Intentor\LaravelTheme\Service'
