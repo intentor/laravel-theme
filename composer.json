@@ -1,7 +1,7 @@
 {
     "name": "intentor/laravel-theme",
     "description": "Simple theme manager for Laravel 5.",
-    "keywords": [ "laravel", "theme", "blade", "template" ],
+    "keywords": [ "laravel-5", "assets", "view", "theme", "blade", "template" ],
 	"homepage": "https://github.com/intentor/laravel-theme",
 	"type": "library",
     "license": "MIT",
