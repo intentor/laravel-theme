@@ -2,6 +2,9 @@
 
 **Simple theme manager for Laravel 5**
 
+[![Laravel](https://img.shields.io/badge/Laravel-5.0-orange.svg?style=flat-square)](http://laravel.com)
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
+
 ## Contents
 
 1. <a href="#introduction">Introduction</a>
@@ -53,9 +56,9 @@ At `config/app.php`, add the Service Provider and the Facade:
 
 To create a theme, first add a `themes` folder to the `resources` folder of your app.
 
-Inside the `themes` folder, any folder you create will represent a theme. For each theme folder, add a `views` folder, in which you'll create all the views for the theme.
+Inside the `themes` folder, any folder you create will represent a theme. For each theme folder, add a `views` folder, in which you'll create all the views for that particular theme.
 
-So, the folder structure will look like this:
+The folder structure will look like this:
 
 ```
 resources
