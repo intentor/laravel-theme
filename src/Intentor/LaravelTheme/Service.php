@@ -23,7 +23,6 @@ class Service {
 	 */
 	public function __construct() {
 		$this->finder = app('view.finder');
-		View::setFinder($this->finder);
 	}
 	
 	/**
