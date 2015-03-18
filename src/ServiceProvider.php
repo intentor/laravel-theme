@@ -18,7 +18,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 	public function register() {
 		$this->app->bind(
 			'intentor.laravel-theme',
-			'App\Services\Theme'
+			'Intentor\LaravelTheme\Theme'
 		);
 	}
 }
