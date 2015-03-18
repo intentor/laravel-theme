@@ -1,5 +1,7 @@
 <?php namespace Intentor\LaravelTheme;
 
+use View;
+
 /**
  * Manages app themes.
  * 
