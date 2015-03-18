@@ -1,9 +1,9 @@
 # ![Laravel Theme](https://cloud.githubusercontent.com/assets/5340818/6719072/0df533b0-cd97-11e4-9951-59796621efae.png)
 
-**Simple theme manager for Laravel 5**
-
 [![Laravel](https://img.shields.io/badge/Laravel-5.0-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
+
+**Simple theme manager for Laravel 5**
 
 ## Contents
 
